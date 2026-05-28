@@ -1,0 +1,16 @@
+---
+- name: Instalacao e conf do apache webdserver
+  hosts: server01.aroque.com.br
+  become: true
+  tasks:
+
+    - name: Instalacao do pacote apache
+      package:
+        name: httpd
+        state: present
+
+    - name: start do servico apache
+      service:
+        name: httpd
+        state: started
+        enabled: true
