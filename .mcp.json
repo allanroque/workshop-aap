@@ -1,0 +1,44 @@
+"mcpServers": {
+        "aap-mcp-job-management": {
+          "type": "http",
+          "url": "https://192.168.100.11:3000/job_management/mcp",
+          "headers": {
+            "Authorization": "Bearer b4tdSJSP4myYhaPkWPQXPtsIK8vfWY"
+          }
+        },
+        "aap-mcp-inventory-management": {
+          "type": "http",
+          "url": "https://192.168.100.11:3000/inventory_management/mcp",
+          "headers": {
+            "Authorization": "Bearer b4tdSJSP4myYhaPkWPQXPtsIK8vfWY"
+          }
+        },
+        "aap-mcp-system-monitoring": {
+          "type": "http",
+          "url": "https://192.168.100.11:3000/system_monitoring/mcp",
+          "headers": {
+            "Authorization": "Bearer b4tdSJSP4myYhaPkWPQXPtsIK8vfWY"
+          }
+        },
+        "aap-mcp-user-management": {
+          "type": "http",
+          "url": "https://192.168.100.11:3000/user_management/mcp",
+          "headers": {
+            "Authorization": "Bearer b4tdSJSP4myYhaPkWPQXPtsIK8vfWY"
+          }
+        },
+        "aap-mcp-security-compliance": {
+          "type": "http",
+          "url": "https://192.168.100.11:3000/security_compliance/mcp",
+          "headers": {
+            "Authorization": "Bearer b4tdSJSP4myYhaPkWPQXPtsIK8vfWY"
+          }
+        },
+        "aap-mcp-platform-configuration": {
+          "type": "http",
+          "url": "https://192.168.100.11:3000/platform_configuration/mcp",
+          "headers": {
+            "Authorization": "Bearer b4tdSJSP4myYhaPkWPQXPtsIK8vfWY"
+          }
+        }
+      },

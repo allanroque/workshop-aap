@@ -1,0 +1,16 @@
+---
+- name: Instalar Apache no RHEL 9
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Instalar pacote httpd
+      ansible.builtin.dnf:
+        name: httpd
+        state: present
+
+    - name: Garantir que o httpd está ativo e habilitado no boot
+      ansible.builtin.service:
+        name: httpd
+        state: started
+        enabled: true
